@@ -1,0 +1,25 @@
+.logoHello {
+    width: auto;
+    height: 54px;    
+}
+
+.adesao h5 {
+    color: #ff4d00;
+}
+
+.adesao h3 {
+    color: #ff4d00;
+}
+
+.textoAdesaoTitle {
+    font-size: 14px;
+    color: #912b00 !important;
+}
+.textoAdesao {
+    font-size: 14px;
+
+}
+
+.listAdesao {
+    border-style: none;
+}

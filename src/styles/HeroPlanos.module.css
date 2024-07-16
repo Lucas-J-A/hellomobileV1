@@ -1,0 +1,46 @@
+.contOrange {
+    background-color: #ff4d00;
+}
+
+.imgMockupHello {
+    width: 100% !important;
+	height: auto;
+}
+
+.spanControle {
+    font-weight: 400;
+	color: #FFA64D;
+	letter-spacing: 5px;
+}
+
+.h3Controle {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.colControle {
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+.btnControle {
+    background: linear-gradient(90deg, rgba(231, 154, 0, 1) 0%, rgba(247, 179, 43, 1) 100%);
+    color: #4E008D;
+    font-size: 16px;
+    margin: 0;
+    border-style: none;
+}
+  
+.btnControle:hover {
+    color: #21003b;
+    border-style: none;
+  }
+
+
+
+  @media screen and (max-width: 1199px) { 
+    .contOrange {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+  }

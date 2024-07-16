@@ -1,0 +1,15 @@
+.iconeWPP {
+    margin-top: 1rem;
+    position: fixed;
+    z-index: 850;
+    height: auto;
+    width: 60px;
+    top: 150px;
+    right: 10px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+}

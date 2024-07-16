@@ -1,0 +1,118 @@
+.cardHome {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 95%;
+    word-wrap: break-word;    
+    background-clip: border-box;
+    border: 1px solid #dfdfdf;
+    border-radius: 20px;
+    
+  }
+
+  .cardHomeHeader {
+
+    background-color: #f7f7fa;
+
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-bottom: none;
+    font-size: 24px;
+    
+
+    text-align: left
+
+  }
+
+  .cardHomeNome {
+    color: #000;
+    font-family: "Montserrat Alternates" sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    line-height: normal !important;
+    padding: 10px 28px 0;
+  }
+
+  .CardHomeGB {
+    padding: 0 28px 0;
+    margin: 0;
+    font-family: "Poppins" sans-serif !important;
+    font-size: 36px;
+    font-weight: 900;
+    color: #DC4405;
+  } 
+
+  .CardHomeBenefit {
+    padding: 0 28px 0;
+    font-family: "Poppins" sans-serif !important;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .promoHome {
+    background-color: #f7f7fa;
+    border-radius: 12px;
+    margin-top: 10px !important;
+    margin: 0 25px 0;
+  }
+
+  .PromoHomeText svg{
+    color: #ff4d00;
+    margin-right: 2px;
+    margin-top: -2px;
+  }
+
+  .PromoHomeText { 
+    margin-left: 5px !important;
+    font-family: "Poppins" sans-serif !important;
+    font-size: 12px !important;
+    line-height: normal;
+  }
+
+  .rowHomeAssinar {
+    margin: 50px 25px 0;
+  }
+
+  .btnPlanos {
+    border-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .btnPlanos:hover {
+    color: #4e008d;
+    font-weight: 600;
+    transition: 200ms;
+  }
+
+  .CardPlanosPreco {
+    margin-top: 0.5rem;
+    font-weight: 800;
+    font-size: 16px;
+    color: #4e008d;
+    
+  }
+
+  .CardPlanosPreco span{
+    font-size: 12px;
+    color: #DC4405;
+    font-weight: 500;
+  }
+
+  .descriptFidelidade{
+    margin: 0 15px 0;
+    font-style: italic;
+    font-size: 10px;
+    border: none !important;
+  }
+
+
+  .listaHome {
+    margin: 0 15px 7px;
+    font-size: 14px;
+  }

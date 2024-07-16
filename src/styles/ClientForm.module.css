@@ -1,0 +1,106 @@
+/* styles/ClientForm.module.css */
+.formHeading {
+  margin-top: 2rem;
+  font-family: 'Montserrat Alternates', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 42px !important;
+}
+
+.formDescription {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 16px !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.formDescription span {
+  font-weight: 700 !important;
+}
+
+.labelCadastro {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.clientForm {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  color: #000000;
+
+
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+
+.form-control {
+  border-color: rgba(220, 68, 5, 1) !important;
+}
+
+
+.clientForm div {
+
+  font-weight: 700;
+}
+
+.clientForm div input[type=checkbox] {
+  /* border-color: #e23d19; */
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='%23FFD700'/></svg>");
+}
+
+.clientForm div input:focus {
+  border-color: #e23d19;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(242, 172, 31, 0.25);
+}
+
+.clientForm div input:checked {
+  background-color: hsl(11, 80%, 49%);
+}
+
+.submitButton {
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(231, 154, 0, 1) 0%, rgba(247, 179, 43, 1) 100%);
+  padding: 5px;
+  box-sizing: border-box;
+  font-weight: 700;
+  border-color: #e23d19;
+}
+
+.submitButton:hover {
+  background: linear-gradient(90deg, rgba(247, 179, 43, 1) 0%, rgba(231, 154, 0, 1) 100%);
+  font-weight: 700;
+  border-color: #e23d19;
+}
+
+.apiError {
+  color: red;
+  margin-top: 10px;
+}
+
+.linkPrivacidade {
+  position: relative;
+  bottom: 3px;
+}
+
+.linkPrivacidade button,
+.linkPrivacidade button:hover {
+  text-decoration: underline;
+  background: transparent;
+  font-weight: 700;
+  border-width: 0;
+  margin: 5px;
+  padding: 0;
+  color: black;
+  position: relative;
+  bottom: 0.5px;
+}
+
+@media (max-width: 770px) {
+  .labelCadastro {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+  }
+}

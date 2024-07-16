@@ -1,0 +1,436 @@
+.main {
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.customCarousel.carousel-control-prev {
+  /* display: none; */
+  background-color: #4e008d;
+}
+
+.carousel-indicators .active {
+  background-color: #007bff;
+  /* Cor de fundo do indicador ativo */
+}
+
+.customCard {
+  border-color: #ff4d00;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.customCard div {
+  padding: 0;
+}
+
+.customCard div p {
+  font-family: "Poppins", sans-serif;
+}
+
+.customCard div img {
+  padding: 5px;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.customButton {
+  background: linear-gradient(90deg, rgba(247, 179, 43, 1) 0%, rgba(231, 154, 0, 1) 100%);
+  font-weight: 700;
+  border-color: #e23d19;
+  margin: 5px;
+}
+
+.title {
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.gb {
+  margin-left: 25px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 51px;
+  color: #ff4d00;
+}
+
+.descricao {
+  margin: 0px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: center;
+  height: 100px;
+}
+
+.descricaoBonus {
+  font-weight: 700;
+  font-size: 14px;
+  color: #4e008d;
+  text-align: center;
+  margin-top: -40px;
+
+}
+
+.bonus {
+  font-weight: 700;
+  font-size: 14px;
+  color: #4e008d;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.borderBot {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-bottom: solid 1px orangered;
+  border-radius: 0 !important;
+}
+
+.valor {
+  font-weight: 500;
+  margin: 20px;
+  padding: 0;
+  font-size: 24px;
+
+}
+
+.valor span {
+  font-size: 0.6em;
+}
+
+.adds {
+  background-color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  border-color: #dee2e6;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+}
+
+.adds div {
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.adds svg {
+  color: #ff4d00;
+  margin: 0 3px;
+}
+
+.textoCanais {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.verCanais {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.verCanais a {
+  color: #460d00;
+  text-decoration: none;
+}
+
+.textoCanais div img {
+  width: 40px;
+}
+
+.customCard .streammming {
+  height: auto;
+  max-width: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.btnArrow {
+  background: linear-gradient(90deg, rgb(255, 77, 0) 0%, rgba(231, 154, 0, 1) 100%);
+  border: none;
+  color: white;
+  padding: 4px 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*EDIÇÃO BRUNO*/
+
+.cardPlanos {
+  width: 98%;
+  display: inline-flex;
+  padding: 0.25rem;
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 1.5rem;
+  border: 0.2em solid #f1f1f1;
+  overflow: none;
+  background: linear-gradient(156deg, #DC4405 -75%, #FFF 25%);
+}
+
+.maisVendido {
+  position: absolute;
+  width: 90%;
+  top: -25px;
+  height: 50px;
+  /* Ajuste conforme necessário para posicionar acima do card */
+  left: 50%;
+  padding-top: 0.5em;
+  transform: translateX(-50%);
+  background-color: #DC4405 !important;
+  color: #ffffff;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  border-radius: 10px 10px 0 0px;
+
+
+}
+
+.cardPlanosHeader {
+  background: none;
+  border-bottom: 0.75px inset #cc5c0067;
+}
+
+.rowPlanosAssinar {
+  background: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.75px inset #cc5c0067;
+}
+
+.cardPlanosNome {
+  color: #000;
+  font-family: "Montserrat Alternates" sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+}
+
+.cardPlanosDescript {
+  font-size: 10px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.CardPlanosGB {
+
+  font-size: 27px;
+  font-weight: 700;
+  color: #DC4405;
+
+}
+
+.CardPlanosBenefit {
+  font-size: 10px;
+  line-height: normal;
+}
+
+.btnPlanos {
+  border-style: none;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.btnPlanos:hover {
+  color: #4e008d;
+  font-weight: 600;
+  transition: 200ms;
+}
+
+.CardPlanosPreco {
+  margin-top: 0.5rem;
+  font-weight: 800;
+  font-size: 16px;
+  color: #4e008d;
+
+}
+
+.CardPlanosPreco span {
+  font-size: 12px;
+  color: #DC4405;
+  font-weight: 500;
+}
+
+.imgMaxUol {
+  height: 16px;
+  width: auto;
+}
+
+.imgCanais {
+  max-width: 85%;
+  height: auto;
+  /* Garante que a imagem ocupe toda a altura disponível */
+  object-fit: cover;
+  /* Mantém a proporção da imagem */
+  margin: auto;
+}
+
+.descriptBeneficiosPlanos {
+  font-size: 11px;
+  font-weight: 400;
+  border-bottom: 0.75px inset #b3b3b367;
+  margin: 0;
+}
+
+.descriptFidelidade {
+  font-style: italic;
+  font-size: 10px;
+  border: none !important;
+}
+
+.descriptBeneficiosPlanosFim {
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.descriptBeneficiosPlanos svg {
+  color: #ff4d00;
+  margin-right: 2px;
+}
+
+.descriptBeneficiosPlanosFim svg {
+  color: #ff4d00;
+  margin-right: 2px;
+}
+
+.imgByWatch {
+  height: auto;
+  width: 160px;
+}
+
+.benefitByWatch {
+  margin-top: 0.75em;
+  font-size: 10px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.principaisCanaisIMG {
+  height: auto;
+  width: 60px;
+}
+
+.titleTariffs {
+  font-weight: 400;
+  color: #FFA64D;
+  letter-spacing: 5px;
+}
+
+@media screen and (max-width: 575.98px) {
+
+  .cardPlanosNome {
+    font-size: 21px !important;
+  }
+
+  .cardPlanosDescript {
+    padding-top: 0.2rem !important;
+    font-size: 11px !important;
+  }
+
+  .CardPlanosGB {
+    font-size: 36px !important;
+  }
+
+  .CardPlanosBenefit,
+  .benefitByWatch {
+    font-size: 11px !important;
+  }
+
+
+
+  .rowPlanosAssinar {
+    padding-top: 0.5rem !important;
+  }
+
+  .btnPlanos {
+    font-size: 11px !important;
+  }
+
+  .descriptBeneficiosPlanos,
+  .descriptBeneficiosPlanosFim {
+    font-size: 12px !important;
+  }
+
+  .imgMaxUol {
+    height: 18px !important;
+  }
+
+}
+
+@media screen and (max-width: 1199.90px) {
+
+  .cardPlanosNome {
+    font-size: 14px !important;
+  }
+
+  .CardPlanosGB {
+    font-size: 24px !important;
+    margin: 0 !important;
+  }
+
+  .btnPlanos {
+    border-style: none;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .btnPlanos:hover {
+    color: #4e008d;
+    transition: 200ms;
+  }
+
+  .CardPlanosPreco {
+    margin-top: 0.5rem;
+    font-weight: 800;
+    font-size: 14px;
+    color: #4e008d;
+
+  }
+
+  .CardPlanosPreco span {
+    font-size: 10px;
+    color: #DC4405;
+    font-weight: 500;
+  }
+
+  .descriptBeneficiosPlanos {
+    font-size: 10px;
+    font-weight: 400;
+    border-bottom: 0.75px inset #b3b3b367;
+    margin: 0;
+  }
+
+  .descriptBeneficiosPlanosFim {
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .descriptBeneficiosPlanos svg {
+    color: #ff4d00;
+    margin-right: 2px;
+  }
+
+  .descriptBeneficiosPlanosFim svg {
+    color: #ff4d00;
+    margin-right: 2px;
+  }
+}
+}

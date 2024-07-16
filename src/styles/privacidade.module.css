@@ -1,0 +1,36 @@
+.privacidade {
+    top: 30px;
+    position: relative;
+}
+
+.logoHello {
+    width: auto;
+    height: 54px;    
+}
+
+.privacidade h5 {
+    color: #ff4d00;
+}
+
+.privacidade h3 {
+    color: #ff4d00;
+}
+
+.textoPrivacidadeTitle {
+    font-size: 14px;
+    color: #912b00 !important;
+}
+.textoPrivacidade {
+    font-size: 14px;
+
+}
+
+.listPrivacidade {
+    border-style: none;
+}
+
+@media screen and (max-width: 768px) { 
+    .privacidade {
+        top: 60px;
+    }
+  }

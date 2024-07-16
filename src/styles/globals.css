@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-pop: Poppins;
+  --font-montserrat-alternates: "Montserrat Alternates";
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(from 180deg at 50% 50%,
+      #16abff33 0deg,
+      #0885ff33 55deg,
+      #54d6ff33 120deg,
+      #0071ff33 160deg,
+      transparent 360deg);
+  --secondary-glow: radial-gradient(rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0));
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(#00000080,
+      #00000040,
+      #00000030,
+      #00000020,
+      #00000010,
+      #00000010,
+      #00000080);
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+}
+
+p,
+span,
+a,
+ul,
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat Alternates", sans-serif !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(to bottom right,
+        rgba(1, 65, 255, 0),
+        rgba(1, 65, 255, 0),
+        rgba(1, 65, 255, 0.3));
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(#ffffff80,
+        #ffffff40,
+        #ffffff30,
+        #ffffff20,
+        #ffffff10,
+        #ffffff10,
+        #ffffff80);
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #ffffff;
+}
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/*Custom=========================*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #e23d19;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #868686;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar-bg {
+  top: 70px;
+}
+
+
+
+.fixed-top {
+  top: 40px
+}
+
+@media (max-width: 768px) {
+  .fixed-top {
+    top: 100px
+  }
+}
+
+a.nav-link {
+  justify-content: space-between;
+  padding: 0 6px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+  border-bottom: 2px solid;
+  border-color: transparent;
+  color: #222222;
+}
+
+a.active {
+  font-weight: 700;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid;
+  border-color: #bf4614;
+  color: #bf4614;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Top Bar
+--------------------------------------------------------------*/
+
+
+/*Banner carosel*/
+.carouselBanner {
+  width: 100vw;
+  overflow: hidden;
+
+}
+
+/*Section video watch*/
+.video-watch__container {
+  height: auto;
+}
+
+.video-watch {
+
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  align-items: center;
+
+  /* Preencher possíveis espaços vazios */
+}
+
+
+
+@media (max-width: 1200px) {
+
+
+  .video-watch__container {
+    width: 900px;
+    height: auto;
+
+  }
+}
+
+
+.container_video {
+
+  background-image: url('/img/TELA-FILME.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-radius: 25px;
+}
+
+.container_video h4 {
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.info-streamwatch {
+  max-width: 180px;
+  margin: 1em 0;
+}
+
+
+
+/* Classe para ocultar controles específicos do player de vídeo */
+
+
+
+.container_video-btn {
+  color: #ffff;
+  background-color: rgb(181, 49, 20);
+
+}
+
+.container_video-btn:hover {
+  color: #ffff;
+  background-color: rgb(252, 69, 28);
+
+}
+
+.video-watch::-webkit-media-controls-play-button,
+.video-watch::-webkit-media-controls-fullscreen-button,
+.video-watch::-webkit-media-controls-timeline,
+.video-watch::-webkit-media-controls-menu-button,
+.video-watch::-webkit-media-controls-current-time-display,
+.video-watch::-webkit-media-controls-time-remaining-display,
+.video-watch::-webkit-media-controls-timeline-container {
+  display: none;
+}
+
+#muteIcon {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  /* Mover o ícone para a esquerda */
+  cursor: pointer;
+  font-size: 24px;
+  color: red;
+}
+
+/* Estilos para o overlay que aparece quando o vídeo termina */
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay .btn {
+  margin: 5px;
+}
+
+
+.icon-style {
+  background-color: #ff4d00;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container_video p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.icone-filme {
+  margin-left: 1.25em;
+  padding-bottom: 0.5em;
+}
+
+.info-video {
+  padding-top: 0.5em;
+}
+
+
+/*MODAL*/
+.modal-content {
+  color: #000000;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/*--------------------------*/
+#planos {
+  padding-top: 80px;
+  /* Ajuste conforme necessário para compensar a altura do cabeçalho */
+}
+
+
+/*--------------------------------------------------------------
+# F.A.Q COBERTURA
+--------------------------------------------------------------*/
+
+.section-title {
+  color: #000000;
+}
+
+.faq {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0;
+
+
+
+
+}
+
+.faqContainer {
+  background-color: transparent !important;
+  border: none;
+
+
+}
+
+.faqBody {
+
+  border: none;
+  text-align: justify;
+
+}
+
+.faqHeader {
+  padding: 10px;
+  color: #000000;
+  border-bottom: 1px solid #B33C0A;
+  background-color: transparent !important;
+
+
+
+}
+
+.faqHeader button {
+  width: 100%;
+  padding: 20px;
+  background-color: transparent !important;
+  color: #000000;
+  border: none !important;
+  text-align: start;
+
+}
+
+.accordion-button:not(.collapsed) {
+
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+
+/*Botões*/
+.btn-primary {
+  background: linear-gradient(90deg, rgba(247, 179, 43, 1) 0%, rgba(231, 154, 0, 1) 100%);
+  font-weight: 700;
+  border-color: #e23d19;
+  margin: 5px;
+  color: #460d00;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, rgba(247, 179, 43, 1) 0%, rgba(231, 154, 0, 1) 100%);
+  border-color: #751e0b;
+  color: #ffffff;
+}
+
+.btnNovoNumero {
+  background-color: rgba(247, 179, 43, 1);
+  border: none;
+}
+
+.btnNovoNumero:hover {
+  background-color: rgb(0, 0, 0) !important;
+
+}
+
+.btnPortabilidade {
+  background-color: rgba(220, 68, 5, 1);
+  border: none;
+
+}
+
+/*Formulario Plano*/
+
+.form-control {
+  border-color: rgba(220, 68, 5, 1);
+}
+
+.form-control:focus {
+  border-color: orange;
+  /* Altere para a cor desejada */
+  box-shadow: 0 0 0 0.1rem rgba(255, 166, 0, 0.711);
+  /* Adiciona um efeito de sombra ao redor do campo */
+
+}
+
+/*CardPlano*/
+
+.cardResume {
+  background-color: rgba(250, 94, 30, 1);
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 2rem;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: rgba(250, 94, 30, 1) !important;
+}
+
+@media (max-width: 978px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}

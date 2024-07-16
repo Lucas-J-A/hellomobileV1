@@ -1,0 +1,15 @@
+.btnVerTodosCanais {
+    border-style: none;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+.btnVerTodosCanais:hover {
+    color: #B33C0A;
+}
+
+.titleMC {
+    color: #B33C0A;
+    font-weight: 600;
+}

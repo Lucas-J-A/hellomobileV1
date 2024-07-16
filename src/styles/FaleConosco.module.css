@@ -1,0 +1,43 @@
+.faleHeadingTitle {
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif !important;
+    font-size: 36px !important;
+    line-height: normal !important;
+    font-weight: 800 !important;
+}
+
+.faleHeadingDescription {
+    text-align: center !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.contDarkOrange {
+    background-color: #D83610;
+}
+
+.imgWpp {
+
+    block-size: fit-content;
+    height: auto;
+    width: 60px;
+    background-color:#fff;
+    padding: .5em;
+    border-radius: 18px
+}
+
+.tiposdecontatoTitulo {
+    color: #FFF2C8 !important;
+    padding-top: 0.5em;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.tiposdecontatoDescript {
+    padding-top: 0.2em;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}

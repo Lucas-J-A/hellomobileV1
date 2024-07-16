@@ -1,0 +1,138 @@
+/* REGRAS GLOBAIS*/
+.cardBeneficios {
+  max-width: 50rem;
+  padding: 0;
+  margin: 0;
+}
+
+.cardBenefTitle {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.cardBenefText {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.cardBenefLink {
+  background: linear-gradient(90deg, rgba(231, 154, 0, 1) 0%, rgba(247, 179, 43, 1) 100%);
+  color: #4E008D;
+  font-size: 16px;
+  margin: 0;
+  border-style: none;
+}
+
+.cardBenefLink:hover {
+  color: #21003b;
+  border-style: none;
+}
+
+/*CARD 1 - Planos Controle*/
+.cardBeneficios {
+  .bodyBenefPlanos {
+    color: white;
+    background-image: url("/img/bg-planos2.png");
+    background-color: #f03900;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+  }
+
+  /*CARD 2 - Chip de Viagem*/
+
+  .bodyBenefInter {
+    color: rgb(19, 19, 19);
+    background-image: url("/img/bg-viagem.png");
+    background-color: #ffff;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    overflow: hidden;
+  }
+
+  /*CARD 3 - Streaming*/
+    .bodyBenefWatch {
+      color: white;
+      background-image: url("/img/bg-streaming.png");
+      background-color: #360063;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: -4.5em 1.5em;
+      overflow: hidden;
+    }
+  }
+
+
+
+/* Media Queries - Do menor para o maior */
+
+/* Para telas menores que sm (Extra small devices, phones) */
+@media (max-width: 575.98px) {
+
+  /* Estilos exclusivos para telas menores que sm */
+  .bodyBenefPlanos {
+    background-position: -2em;
+  }
+
+  .bodyBenefInter {
+    background-size: 100%;
+    background-position: 5em 3em;
+  }
+
+  .bodyBenefWatch {
+    background-position: -6em 2em;
+    background-size: 75%;
+  }
+}
+
+/* Para sm (Small devices, landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* Estilos exclusivos para col-sm do Bootstrap */
+  .bodyBenefWatch {
+    background-position: left bottom;
+  }
+
+
+}
+
+/* Para md (Medium devices, tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* Estilos exclusivos para col-md do Bootstrap */
+  .bodyBenefInter .cardBenefLink {
+    font-size: 14px;
+  }
+
+  .bodyBenefInter {
+    background-size: 68%;
+    background-position: right bottom;
+  }
+
+  .bodyBenefWatch {
+    background-position: left center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  /*VÁLIDO EXCLUSIVAMENTE PARA O COL-LG Do Bootstrap*/
+  .bodyBenefPlanos {
+    background-position: -2em;
+  }
+
+  .bodyBenefInter {
+    background-size: 75%;
+    background-position: 8em bottom;
+  }
+
+  .bodyBenefWatch {
+    background-position: -6.2em 1em;
+    background-size: 75%;
+
+  }
+}

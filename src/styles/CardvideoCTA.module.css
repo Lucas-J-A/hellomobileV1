@@ -1,0 +1,20 @@
+
+.cardWatch {
+    border-style: none;
+    background: none;
+}
+
+.cardWatchIcon {
+    padding: 0.5rem;
+    background-color: #2c0272 !important;
+    width: 72px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+
+}
+
+.cardWatch h5 {
+    font-weight: 700;
+    font-size: 18px;
+}

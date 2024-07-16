@@ -1,0 +1,44 @@
+.topbar {
+    background: #FFA64D;
+    height: 60px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    transition: all 0.9s ease-in-out;
+
+}
+
+.topbar i a,
+.topbar i span {
+    padding-left: 5px;
+    color: #fff;
+
+}
+
+.topbar i a {
+    line-height: 0;
+
+
+}
+
+.topbar i a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.topbar .socialLinks a {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+.topbar .socialLinks a:hover {
+    color: white;
+}
+
+@media (max-width: 769px) {
+    .topbar {
+        height: 60px;
+    }
+}

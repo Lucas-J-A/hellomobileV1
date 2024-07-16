@@ -1,0 +1,51 @@
+.btnContratar {
+    border-style: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btnVerTodosCanais {
+    border-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #3a0959;
+}
+
+.headerContratar {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #431000;
+}
+
+.modalP {
+    font-size: 14px;
+}
+
+.btnPortabilidade {
+    border-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #3a0959;
+}
+
+.btnPortabilidade:hover {
+    border-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffac2b;
+    background-color: #3a0959;
+}
+
+.formLabelContratar {
+    font-size: 12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.optionContratar {
+    font-size: 14px;
+}
+
+.labelContratar {
+    color: #ff3f03;
+    font-size: 14px;
+}

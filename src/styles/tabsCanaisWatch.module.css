@@ -1,0 +1,53 @@
+.tabsCanaisWatch {
+    max-width: 45em;
+}
+
+.campoCanaisWatch {
+    border-left: 1px solid #e7e7e7; /* Customize border color */
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.imgCanaisWatchquadrado {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Define a altura como automática para manter a proporção */
+    max-width: 75px;
+    max-height: 70px;
+    
+}
+
+.imgCanaisWatchSony {
+    width: auto;
+    height: 100%;
+    max-height: 55px;
+}
+
+.imgCanaisWatchretangulo {
+    width: 100%;
+    height: auto;
+    max-width: 90px;
+}
+
+.linhaCanais p {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.linhaCanais p>span {
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+.bordaColWatch {
+    border-left: solid 1px #bebebe;
+}
+
+.tituloCanaisWatch button {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    background-color: aquamarine !important;
+}

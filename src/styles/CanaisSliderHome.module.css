@@ -1,0 +1,15 @@
+
+
+.bwImage {
+    filter: grayscale(100%);
+    width: auto;
+    height: 50px;
+    object-fit: contain;
+}
+
+.slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}

@@ -1,0 +1,19 @@
+.faq {
+    transition: 0.3s;
+    padding: 0;
+}
+
+.faqContainer {
+    background-color: transparent !important;
+    border: none;
+}
+
+.faqHeader {
+    padding: 10px;
+    border-bottom: 1px solid #B33C0A;
+}
+
+.faqBody {
+    border: none;
+    text-align: justify;
+}
